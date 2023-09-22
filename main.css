@@ -1,0 +1,185 @@
+/* :root{
+    --font: 'serif';
+    --color-white: '#fff';
+    --flex: 'flex';
+    --color-black: '#000000';
+    --box-sh: '0px 0px 20px red';
+    --button-padding: '30px';
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar_header .navbar_nav .navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.navbar_header .navbar_nav .navbar_container .ul_container ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar_header .navbar_nav .navbar_container .ul_container ul li {
+  margin: 12px;
+}
+.navbar_header .navbar_nav .navbar_container .ul_container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.navbar_header {
+  background-color: rgba(43, 177, 43, 0.856);
+}
+.navbar_header .navbar_nav .navbar_container .logo_container {
+  margin-right: 300px;
+}
+.navbar_header .navbar_nav .navbar_container .logo_container h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.navbar_header .navbar_nav .navbar_container .navbar_button_container {
+  margin-left: 300px;
+}
+.navbar_header .navbar_nav .navbar_container .navbar_button_container button {
+  padding: 10px 30px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: rgba(43, 177, 43, 0.856);
+  font-size: 18px;
+}
+.navbar_header
+  .navbar_nav
+  .navbar_container
+  .navbar_button_container
+  button:hover {
+  background-color: yellow;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.home_section .home_container {
+  animation: carusel 6s linear infinite;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+@keyframes carusel {
+  0% {
+    background-image: url(img_1.jpg);
+  }
+  50% {
+    background-image: url(img_2.jpg);
+  }
+  100% {
+    background-image: url(img_3.jpg);
+  }
+}
+.home_section .home_container .home_heading h1 {
+  color: #fff;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+.home_section .home_container .home_heading {
+  margin-left: 250px;
+  padding-top: 200px;
+}
+.home_section .home_container .home_text p {
+  color: #fff;
+  font-size: 20px;
+}
+.home_section .home_container .home_text {
+  margin-left: 250px;
+}
+.home_section .home_container .home_button {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.home_section .home_container .home_button button {
+  padding: 10px 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(43, 177, 43, 0.856);
+}
+.home_section .home_container .home_button button:hover {
+  background-color: black;
+  color: green;
+  transition: all 0.5s ease;
+}
+
+.about_section .about_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_section .about_container .about_box {
+  width: 700px;
+  height: 600px;
+  margin: 10px;
+}
+
+.about_section .about_container .about_box_img {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU9Hlian1k1zjmDVIk6fFfQiNvXgSUgHjXLw&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+}
+.about_section .about_container .about_box .about_heading h1 {
+  font-size: 50px;
+  margin-top: 100px;
+  margin-left: 30px;
+  color: rgba(43, 177, 43, 0.856);
+}
+.about_section .about_container .about_box .about_text p {
+  color: rgba(43, 177, 43, 0.856);
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about_section .about_container .about_box .about_button a {
+  padding: 10px 40px;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(43, 177, 43, 0.856);
+}
+.about_section .about_container .about_box .about_button {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.image_section .image_container {
+  width: 100%;
+  height: 50vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_section .image_container .image_box_4 {
+  width: 350px;
+  height: 40vh;
+  margin: 10px;
+  box-shadow: 0px 0px 20px red;
+}
+.image_section .image_container .image_box_4 img {
+  width: 100%;
+  height: 100%;
+}
+.image_section .image_hading_container h1 {
+  font-size: 50px!important;
+  color: rgba(43, 177, 43, 0.856);
+  padding-top: 50px;
+}
+.image_section .image_hading_container {
+  background-color: #000;
+  text-align: center;
+}
